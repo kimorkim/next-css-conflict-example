@@ -1,0 +1,23 @@
+{
+  "name": "basic_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 9090",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "merge-files-webpack-plugin": "^1.1.2",
+    "next": "^8.0.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
